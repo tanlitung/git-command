@@ -30,3 +30,8 @@ Check commit history
 $ git log --oneline
 ```
 
+# Revert (Undo a commit - Safe)
+```
+$ git revert commit-id
+```
+When a window pop up, press ```shift``` + ```;```, then type in ```wq``` and hit ```ENTER```.
