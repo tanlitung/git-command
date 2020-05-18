@@ -26,14 +26,14 @@
 ### Revert (Undo a commit - Safe)
 `$ git revert commit-id`
 
-When a window pop up, press `SHIFT` + `;` then type in `wq` and hit `ENTER`.
+*When a window pop up, press `SHIFT` + `;` then type in `wq` and hit `ENTER`.*
 
 ### Reset (Reset code to a particular commit)
 > If you want to give yourself some room to rethink about it, use this command:
-`$ git reset commit-id`
+```$ git reset commit-id```
 
 > If you are 200% sure that you want to reset the code to a particular commit, and delete all the commit after it:
-`$ git reset commit-id --hard`
+```$ git reset commit-id --hard```
 
 # Branching
 > Create a new branch
@@ -55,14 +55,14 @@ When a window pop up, press `SHIFT` + `;` then type in `wq` and hit `ENTER`.
 `$ git branch -a`
 
 > To merge branches
-`$ git merge branch-name`
+```$ git merge branch-name```
 
 *If there is any conflict during the merging, resolve the conflict then:*
 ```
 $ git add .
 $ git commit -m "Message"
 ```
-When a window pop up, press ```SHIFT``` + ```;``` then type in ```wq``` and hit ```ENTER```.
+*When a window pop up, press ```SHIFT``` + ```;``` then type in ```wq``` and hit ```ENTER```.*
 
 # Github
 > To push a code onto Github:
