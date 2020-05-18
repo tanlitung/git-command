@@ -1,7 +1,7 @@
 # Git Command For Reference
 
 ### To initialize a git
-`$ git init`
+> `$ git init`
 
 ### Add a file into staging area
 > To add a single file
