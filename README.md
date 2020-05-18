@@ -11,7 +11,7 @@
 `$ git add .`
 
 ### Commit
-`$ git commit -m "Add a message here with the quotation mark"`
+> `$ git commit -m "Add a message here with the quotation mark"`
 
 ### Check status and commit history
 > Check status
@@ -55,7 +55,9 @@
 `$ git branch -a`
 
 > To merge branches
-```$ git merge branch-name```
+```
+$ git merge branch-name
+```
 
 *If there is any conflict during the merging, resolve the conflict then:*
 ```
