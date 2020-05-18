@@ -39,7 +39,7 @@ $ git checkout commit-id
 ```
 $ git revert commit-id
 ```
-When a window pop up, press ```shift``` + ```;``` then type in ```wq``` and hit ```ENTER```.
+When a window pop up, press ```SHIFT``` + ```;``` then type in ```wq``` and hit ```ENTER```.
 
 ### Reset (Reset code to a particular commit)
 - If you want to give yourself some room to rethink about it, use this command:
@@ -80,4 +80,16 @@ $ git branch -a
 - To merge branches
 ```
 $ git merge branch-name
+```
+If there is any conflict during the merging, resolve the conflict then:
+```
+$ git add .
+$ git commit -m "Message"
+```
+When a window pop up, press ```SHIFT``` + ```;``` then type in ```wq``` and hit ```ENTER```.
+
+# Github
+> To push a code onto Github:
+```
+$ git push repo-URL branch-name
 ```
