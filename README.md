@@ -1,5 +1,7 @@
 # Git Command For Reference
 
+For more reference: [Click here](https://www.youtube.com/watch?v=3RjQznt-8kE&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR)
+
 ### To initialize a git
 > `$ git init`
 
