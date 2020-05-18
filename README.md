@@ -1,11 +1,11 @@
-### Git Command For Reference
+# Git Command For Reference
 
-# To initialize a git
+### To initialize a git
 ```
 $ git init
 ```
 
-# Add a file into staging area
+### Add a file into staging area
 - To add a single file
 ```
 $ git add filename
@@ -15,12 +15,12 @@ $ git add filename
 $ git add .
 ```
 
-# Commit
+### Commit
 ```
 $ git commit -m "Add a message here with the quotation mark"
 ```
 
-# Check status and commit history
+### Check status and commit history
 - Check status
 ```
 $ git status
@@ -30,18 +30,18 @@ $ git status
 $ git log --oneline
 ```
 
-# View a commit
+### View a commit
 ```
 $ git checkout commit-id
 ```
 
-# Revert (Undo a commit - Safe)
+### Revert (Undo a commit - Safe)
 ```
 $ git revert commit-id
 ```
 When a window pop up, press ```shift``` + ```;``` then type in ```wq``` and hit ```ENTER```.
 
-# Reset (Reset code to a particular commit)
+### Reset (Reset code to a particular commit)
 - If you want to give yourself some room to rethink about it, use this command:
 
 ```
@@ -52,7 +52,7 @@ $ git reset commit-id
 $ git reset commit-id --hard
 ```
 
-### Branching
+# Branching
 - Create a new branch
 ```
 $ git branch brance-name
